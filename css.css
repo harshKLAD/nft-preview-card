@@ -1,0 +1,109 @@
+.soft-blue {
+  color: hsl(215, 51%, 70%);
+}
+
+.cyan {
+  color: hsl(178, 100%, 50%);
+}
+
+.white:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.dark-blue-main {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+}
+
+.dark-blue-card {
+  background-color: hsl(216, 50%, 16%);
+}
+
+.dark-blue-line {
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.p-font {
+  font-size: 18px;
+}
+
+.font-300 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+
+.font-400 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+.font-600 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.card {
+  display: block;
+  width: 280px;
+  padding: 20px;
+}
+
+.block-0 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 375px;
+  max-width: 1440px;
+}
+
+.block-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-2 {
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.block-3 {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin: 5px;
+}
+
+.radius {
+  border-radius: 10px;
+}
+
+.img-css {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.img-avtr {
+  width: 12%;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 10px;
+}

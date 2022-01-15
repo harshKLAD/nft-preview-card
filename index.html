@@ -6,28 +6,40 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="stylesheet" href="./css.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Equilibrium #3429
+  <div class="dark-blue-main block-0">
 
-  Our Equilibrium collection promotes balance and calm.
+    <div class="dark-blue-card card radius">
+      <div class="">
+        <img src="./images/image-equilibrium.jpg" class="radius img-css" alt="">
+      </div>
+    <p class="white font-600 p-font"><span>Equilibrium #3429</span></p>
+    
+    <p class="soft-blue font-300">Our Equilibrium collection promotes balance and calm.</p>
+    
+    <div class="block-1 font-400 p-font">
+      <p class="cyan left block-3"><img class="icon" src="/images/icon-ethereum.svg">0.041 ETH</p>
+      <p class="soft-blue right block-3"><img class="icon" src="/images/icon-clock.svg">3 days left</p>
+    </div>
+    <div class="dark-blue-line"></div>
+    <div class="block-2 font-300">
+      <img src="./images/image-avatar.png" class="img-avtr" alt="">
+      <p><span class="soft-blue">Creation of </span><span class="white">Jules Wyvern</span></p>
+    </div>
+    </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Harshkumar Lad</a>.
   </div>
 </body>
 </html>
